@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Apostila_003 from './components/apostila-003';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Apostila_003 />
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +15,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    //paddingTop: Constants.statusBarHeight,
+    backgroundColor: '#9E9E9E',
+    padding: 8,
   },
 });
