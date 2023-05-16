@@ -2,10 +2,11 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1, 
+      flex: 1,
       justifyContent: 'center', 
       backgroundColor: '#F5F5F5', 
-      padding: 8, 
+      padding: 8,
+      //alignItems: 'center',
     }, 
     paragraph: {
       margin: 24, 
@@ -17,7 +18,8 @@ const styles = StyleSheet.create({
     button: {
       backgroundColor: '#9E9E9E', 
       height: 60, 
-      justifyContent: 'center', 
+      justifyContent: 'center',
+       
     }, 
     textButton: {
       fontSize: 20, 

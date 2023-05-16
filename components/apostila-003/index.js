@@ -7,9 +7,16 @@ export default function Index() {
 const [numero, setNumero] = useState(0);
 
     function addNumber() {
-      setNumero(numero++);
-      //setNumero(numero + 1);
+    setNumero(numero + 1);
     }
+
+    function remNumber () {
+    setNumero(numero - 1);
+    } 
+
+    function zeroNumber () {
+    setNumero(0);
+    } 
   
   return(
     <View style={styles.container}>
@@ -17,16 +24,45 @@ const [numero, setNumero] = useState(0);
          Exemplo 3
       </Text>
 
-      <Text style={styles.textCounter}>{numero}</Text>
-
       <TouchableOpacity
+        onPress={() => alert('Olá, Mundo!')}
+        style={styles.button}
+        >
+        <Text style={styles.textButton}>
+          Diga "Olá, Mundo!" 
+        </Text>
+      </TouchableOpacity>
+
+      <View style={styles.counter}>
+        <Text style={styles.textCounter}>{numero}</Text>
+        <TouchableOpacity
+        onPress={() => zeroNumber()}
+        style={styles.button}
+        >
+        <Text style={styles.textButton}>
+        Zerar
+        </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+        onPress={() => remNumber()}
+        style={styles.button}
+        >
+        <Text style={styles.textButton}>
+        -
+        </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
         onPress={() => addNumber()}
         style={styles.button}
         >
         <Text style={styles.textButton}>
-          +1
+        +
         </Text>
-      </TouchableOpacity>              
+        </TouchableOpacity>
+
+      </View>
     </View>
   );
 }
