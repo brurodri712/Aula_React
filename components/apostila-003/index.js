@@ -23,7 +23,6 @@ const [numero, setNumero] = useState(0);
       <Text style={styles.paragraph}>
          Exemplo 3
       </Text>
-
       <TouchableOpacity
         onPress={() => alert('Olá, Mundo!')}
         style={styles.button}
@@ -61,6 +60,7 @@ const [numero, setNumero] = useState(0);
         +
         </Text>
         </TouchableOpacity>
+
 
       </View>
     </View>

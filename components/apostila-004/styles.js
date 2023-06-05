@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     },
     texto: {
         fontSize: 26,
+        textAlign: 'center',
         fontWeight: 'bold',
         color: '#b71c1c',
     }
