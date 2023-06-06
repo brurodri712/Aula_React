@@ -10,7 +10,9 @@ const styles = StyleSheet.create({
 
     buttonContainer: {
       flexDirection: 'row',
-
+      width: 90,
+      height: 60,
+      padding: '15',
       justifyContent: 'space-between',
       marginTop: 10,
     },
@@ -19,7 +21,7 @@ const styles = StyleSheet.create({
       fontSize: 18,
       fontWeight: 'bold',
       textAlign: 'center', 
-      color: '#C51162', 
+      color: '#C51162', s
     },
     txtSaida: {
       margin: 6, 
