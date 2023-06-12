@@ -15,17 +15,17 @@ export default function Index() {
     }
 
     function Subt() {
-        const conta = parseInt(n1) - n2;
+        const conta = parseInt(n1) - parseInt(n2);
         setTotal(conta.toString());
     }
 
     function Multi() {
-        const conta = parseInt(n1) * n2;
+        const conta = parseInt(n1) * parseInt(n2);
         setTotal(conta.toString());
     }
 
     function Divisao() {
-        const conta = parseInt(n1) / n2;
+        const conta = parseInt(n1) / parseInt(n2);
         setTotal(conta.toString());
     }
 

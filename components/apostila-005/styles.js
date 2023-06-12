@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
       fontSize: 18,
       fontWeight: 'bold',
       textAlign: 'center', 
-      color: '#C51162', s
+      color: '#C51162',
     },
     txtSaida: {
       margin: 6, 
