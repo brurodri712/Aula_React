@@ -7,16 +7,14 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         width:'100%',
         alignItems:'center',
-
-
     },
 
     texto:{
         fontSize:26,
         fontWeight: 'bold',
         color:'#b71c1c',
-
     },
+
     txtSaida: {
         margin: 24, 
         fontSize: 22, 
@@ -24,6 +22,7 @@ const styles = StyleSheet.create({
         textAlign: 'center', 
         color: '#E53935',     
     }, 
+    
     txtEntrada: {
         borderWidth: 4, 
         textAlign: 'center', 
