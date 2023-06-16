@@ -13,10 +13,6 @@ function Calcular () {
     setResultado (valor);
 }
 
-function Zerar () {
-    setResultado(0);
-}
-
     let resultadoTexto = resultado.toFixed(2);
     let resultadoObs = '';
 
