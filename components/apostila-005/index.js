@@ -29,10 +29,6 @@ export default function Index() {
         setTotal(conta.toString());
     }
 
-    function Zerar() {
-        setTotal(0);
-    }
-
     return (
         <View style={styles.container}>
             <Text style={styles.paragraph}>
@@ -81,9 +77,6 @@ export default function Index() {
                     <Text style={styles.textButton}>/</Text>
                 </TouchableOpacity>
             </View>
-            <TouchableOpacity style={styles.button} onPress={() => Zerar()}>
-                <Text style={styles.textButton}>Zerar</Text>
-            </TouchableOpacity>
         </View>
     );
 }

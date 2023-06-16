@@ -12,7 +12,7 @@ import Apostila_006 from './components/apostila-006';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Apostila_006 />
+      <Apostila_005 />
       <StatusBar style="auto" />
     </View>
   );
