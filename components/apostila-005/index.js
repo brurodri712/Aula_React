@@ -67,12 +67,15 @@ export default function Index() {
                 <TouchableOpacity style={styles.button} onPress={() => Soma()}>
                     <Text style={styles.textButton}>+</Text>
                 </TouchableOpacity>
+
                 <TouchableOpacity style={styles.button} onPress={() => Subt()}>
                     <Text style={styles.textButton}>-</Text>
                 </TouchableOpacity>
+
                 <TouchableOpacity style={styles.button} onPress={() => Multi()}>
                     <Text style={styles.textButton}>X</Text>
                 </TouchableOpacity>
+
                 <TouchableOpacity style={styles.button} onPress={() => Divisao()}>
                     <Text style={styles.textButton}>/</Text>
                 </TouchableOpacity>
